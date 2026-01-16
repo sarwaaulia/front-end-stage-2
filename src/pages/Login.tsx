@@ -34,6 +34,7 @@ export default function Login() {
 						value={username}
 						onChange={(e) => setUsername(e.target.value)}
                         required
+						className="border w-full "
 						
 					/>
 				</div>
@@ -46,6 +47,7 @@ export default function Login() {
 						value={password}
 						onChange={(e) => setPassword(e.target.value)}
                         required
+						className="border w-full "
 					/>
 				</div>
 				{error && (
